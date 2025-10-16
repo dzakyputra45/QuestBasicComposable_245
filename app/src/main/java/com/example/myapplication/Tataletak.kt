@@ -117,7 +117,6 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceEvenly
         ) {
-
         }
     }
 }
