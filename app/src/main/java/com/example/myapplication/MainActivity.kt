@@ -14,6 +14,7 @@ import com.example.myapplication.MainActivity
 import com.example.myapplication.TataLetakBoxColumnRow
 import androidx.compose.material3.Text
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.example.myuipertama.ActivitasPertama
 
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // 🔹 Panggil layout utama
-                    TataLetakBoxColumnRow(
+                    ActivitasPertama(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
